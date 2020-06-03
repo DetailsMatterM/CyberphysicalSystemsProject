@@ -1,4 +1,5 @@
 #make file executable : $ chmod +x bootUp.sh
+#if you would want to run the commands without the bootup file cd into same folder and then enter them without x-terminal-emulator -e as pre fix and & in the end one by one, don't forget xhost +
 
 xhost + &
 x-terminal-emulator -e docker run --rm --init --net=host --name=opendlv-vehicle-view -v $PWD:/opt/vehicle-view/recordings -v /var/run/docker.sock:/var/run/docker.sock -p 8081:8081 chalmersrevere/opendlv-vehicle-view-multi:v0.0.60 &
