@@ -8,3 +8,10 @@ This project was devevloped on Gitlab and then transfered to Github
 
 # Required steps to build and run: 
 Please follow the steps in projectSetup.pdf to setup and run the project on your machine
+
+# Team:
+This project was developed by:
+* Fredrik Ullman
+* Mikael Köse Jansson
+* George Karageozian
+* Moritz Denke
